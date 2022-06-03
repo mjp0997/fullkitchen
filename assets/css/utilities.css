@@ -1,0 +1,30 @@
+.page-layout {
+   width: 95%;
+
+   margin: 0 auto;
+
+   display: flex;
+   column-gap: 2rem;
+}
+
+.page-layout > .side {
+   width: calc(20% - 1rem);
+}
+
+.page-layout > .content {
+   width: calc(80% - 1rem);
+}
+
+.section {
+   padding: 6rem 0;
+}
+
+.section-title {
+   width: 100%;
+   margin-bottom: 3rem;
+
+   font-size: 2.8rem;
+   font-weight: 600;
+   letter-spacing: 0.1rem;
+   text-align: center;
+}

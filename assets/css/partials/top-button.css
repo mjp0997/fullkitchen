@@ -1,0 +1,31 @@
+.top-button {
+   position: fixed;
+   right: 5rem;
+   bottom: 5rem;
+
+   width: 5rem;
+   height: 5rem;
+
+   border-radius: 50%;
+
+   background-color: var(--main-color);
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   z-index: 5;
+
+   box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+
+   transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.top-button:hover {
+   color: #FFFFFF;
+   background-color: green;
+}
+
+.top-button > i {
+   font-size: 2.6rem;
+}

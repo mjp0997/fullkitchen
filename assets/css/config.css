@@ -1,0 +1,54 @@
+html {
+   box-sizing: border-box;
+
+   /* 1rem = 10px */
+   font-size: 62.5%;
+
+   scroll-behavior: smooth;
+}
+ 
+body {
+   font-size: 1.6rem;
+   
+   color: var(--black);
+   background-color: var(--bg-body);
+   
+   display: flex;
+   flex-direction: column;
+}
+ 
+* {
+   box-sizing: inherit;
+   
+   margin: 0;
+   padding: 0;
+   
+   list-style: none;
+
+   color: inherit;
+
+   font-family: var(--main-font);
+   text-decoration: none;
+
+   cursor: default;
+
+   z-index: inherit;
+
+   border: none;
+}
+
+*:before, *:after {
+   box-sizing: inherit;
+}
+
+a {
+   cursor: pointer!important;
+}
+
+a * {
+   cursor: pointer!important;
+}
+
+*:focus {
+   outline: none;
+}

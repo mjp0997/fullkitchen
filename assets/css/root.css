@@ -1,0 +1,12 @@
+:root {
+   /* Fonts */
+   --main-font: 'Lato', sans-serif;
+   --brand-font: 'Kdam Thmor Pro', sans-serif;
+
+   /* Colors */
+   --black: #1D201D;
+   --main-color: #50D350;
+
+   /* Backgrounds */
+   --bg-body: #eeeeee;
+}

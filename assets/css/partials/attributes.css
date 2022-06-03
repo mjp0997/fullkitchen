@@ -1,0 +1,31 @@
+.attributes {
+   display: flex;
+   justify-content: space-between;
+}
+
+.attribute {
+   width: 30%;
+   padding: 1.5rem 2rem;
+
+   background-color: #FFFFFF;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: 1rem;
+
+   border: 0.1rem solid rgba(0, 0, 0, 0.15);
+   border-radius: 1rem;
+
+   box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.15);
+}
+
+.attribute > i {
+   font-size: 5rem;
+   
+   color: var(--main-color);
+}
+
+.attribute > p {
+   font-size: 1.8rem;
+}

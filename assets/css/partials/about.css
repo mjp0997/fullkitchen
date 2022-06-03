@@ -1,0 +1,33 @@
+.about-container {
+   padding-left: 4rem;
+   padding-right: 4rem;
+
+   background-color: #FFFFFF;
+
+   border-radius: 2rem;
+
+   box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.15);
+}
+
+.about {
+   display: flex;
+   column-gap: 2rem;
+}
+
+.about-img {
+   width: calc(20% - 1rem);
+
+   display: flex;
+}
+
+.about-img > img {
+   width: 100%;
+}
+
+.about-data {
+   width: calc(80% - 1rem);
+
+   display: flex;
+   flex-direction: column;
+   row-gap: 2rem;
+}

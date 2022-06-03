@@ -1,0 +1,27 @@
+@import url('./normalize.css');
+
+@import url('./root.css');
+
+@import url('./config.css');
+
+@import url('./utilities.css');
+
+/* Styles */
+
+@import url('./partials/header.css');
+
+@import url('./partials/top-button.css');
+
+@import url('./partials/sidebar.css');
+
+@import url('./partials/best.css');
+
+@import url('./partials/attributes.css');
+
+@import url('./partials/brands.css');
+
+@import url('./partials/about.css');
+
+@import url('./partials/newsletter.css');
+
+@import url('./partials/footer.css');
