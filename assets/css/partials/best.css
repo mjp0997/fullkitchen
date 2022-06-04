@@ -27,6 +27,8 @@
    border-color: var(--main-color);
 
    transform: scale(1.05);
+
+   z-index: 5;
 }
 
 .best-img {
